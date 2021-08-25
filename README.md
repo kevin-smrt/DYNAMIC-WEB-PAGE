@@ -8,6 +8,8 @@ Commencer par créer une base de données. Faire du seeding pour la remplir de d
 
 Instancier un serveur avec la dépendance `express` avec `Node.js`, la page sera dynamique grâce à la dépendance `EJS`.
 
+La dépendance `dotenv` va servir a créer un fichier .env pour y stocker des variables sensibles.
+
 La dépendance `sequelize` va permettre de communiquer avec la base de données.
 Les données récupérées seront envoyées sur la page, et à chaque actualisation la page affichera de nouvelles données.
 
