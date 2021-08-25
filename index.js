@@ -11,6 +11,13 @@ const PORT = process.env.PORT || 3000;
 // Instancie express
 const app = express();
 
+// Réglages pour utiliser EJS
+app.set('view engine', 'ejs');
+app.set('views', 'app/views');
+
+// Renseigne a express ou sont les fichiers statiques
+app.use(express.static('public'));
+
 // Utilise le module router créé dans app/router.js
 app.use(router);
 
