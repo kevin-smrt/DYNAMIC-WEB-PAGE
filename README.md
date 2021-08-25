@@ -3,6 +3,9 @@
 ## 🎯 But du projet
 Une page qui présente un produit, qui lorsqu'on actualise la page change le produit et ses informations, grâce à une base de données avec des données fictive.
 
+## ⌨️ Les dépendances
+`express` `sequelize` `pg` `dotenv` `EJS`
+
 ## 📑 Les étapes
 Commencer par créer une base de données. Faire du seeding pour la remplir de données fictives.
 
